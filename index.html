@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>microblog website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="img/Screenshot_2024-10-21-23-30-46-920_com.android.chrome-removebg-preview.png" >
+    </div>
+    <div class="container">
+        <h1>Send Share Subscribe</h1>
+        <div class="post-section">
+            <textarea id="postInput" placeholder="What's on your mind?" rows="4"></textarea>
+            
+            <!-- File inputs for images and audio -->
+            <input type="file" id="imageInput" accept="image/*"><h1>audio</h1>
+            <input type="file" id="audioInput" accept="audio/*"><h1>video</h1>
+
+            <button id="postButton">Post</button>
+        </div>
+        <div id="feed">
+            <h2>Feed</h2>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
